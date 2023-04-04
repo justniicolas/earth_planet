@@ -1,5 +1,5 @@
 {
-  "name": "nicolas-becharat-vite",
+  "name": "nicolas-becharat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,10 +8,10 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "vite": "^4.0.4"
+    "vite": "^4.0.4",
+    "vite-plugin-string": "^1.2.1"
   },
   "dependencies": {
-    "gsap": "^3.11.4",
     "lil-gui": "^0.17.0",
     "three": "^0.148.0"
   }
