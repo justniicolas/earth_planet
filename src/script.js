@@ -5,6 +5,13 @@ import gsap from 'gsap'
 import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
 
+
+
+//SLIDER 
+
+
+
+//SPHERE
 console.log (vertexShader)
 console.log(fragmentShader)
 
