@@ -12,6 +12,7 @@
     "vite-plugin-string": "^1.2.1"
   },
   "dependencies": {
+    "gsap": "^3.11.5",
     "lil-gui": "^0.17.0",
     "three": "^0.148.0"
   }
