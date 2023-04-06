@@ -33,11 +33,24 @@ body
     
 }
 
-.logo img{
-    width: 2.5%;
-    padding: 1%;
-    
-    
+.text-logo{
+    font-size: x-large;
+    padding: 10px;
+    display: flex;
+
 }
+
+#typewriter-text::after {
+    content: "|";
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
 
   
