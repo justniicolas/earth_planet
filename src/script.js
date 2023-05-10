@@ -76,7 +76,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 const sphere = new THREE.Mesh(
   new THREE.SphereGeometry(7, 50, 50),
   new THREE.MeshBasicMaterial({
-    map: new THREE.TextureLoader().load("./img/globe.jpg")
+    map: new THREE.TextureLoader().load("/img/globe.jpg")
   })
 );
 scene.add(sphere);
